@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - ShieldHer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="auth-page">
+    <a href="index.html" class="back-link">&larr; Back to Home</a>
+    <div class="auth-card">
+        <h2 class="auth-heading">Join ShieldHer</h2>
+        <form id="signup-form" class="auth-form">
+            <div class="form-group">
+                <label for="phone"><E-mail></E-mail></label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="emergency-contacts">Emergency Contacts</label>
+                <input type="text" id="emergency-contacts" name="emergency-contacts" placeholder="e.g., Name1: 91xxxxxxxxx, Name2: 91xxxxxxxxx">
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button type="submit" id="signup-btn" class="auth-submit-btn">Sign In</button>
+            <p class="auth-link-text">Already have an account? <a href="login.html">Log In</a></p>
+        </form>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ShieldHer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="auth-page">
+    <a href="index.html" class="back-link">&larr; Back to Home</a>
+    <div class="auth-card">
+        <h2 class="auth-heading">Welcome Back</h2>
+        <form id="login-form" class="auth-form">
+            <div class="form-group">
+                <label for="phone">email</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" id="login-btn" class="auth-submit-btn">Log In</button>
+            <p class="auth-link-text">Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </form>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
